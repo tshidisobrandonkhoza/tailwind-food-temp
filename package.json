@@ -1,0 +1,23 @@
+{
+  "name": "tailwind-food-temp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss -i ./src/styles.css -o ./public/css/styles.css",
+    "watch-css": "tailwindcss -i ./src/styles.css -o ./public/css/styles.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tshidisobrandonkhoza/tailwind-food-temp.git"
+  },
+  "author": "Tshidiso Brandon Khoza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tshidisobrandonkhoza/tailwind-food-temp/issues"
+  },
+  "homepage": "https://github.com/tshidisobrandonkhoza/tailwind-food-temp#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
